@@ -2,6 +2,14 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [0.3.2] - 2026
+
+- Preparacao da biblioteca para receber 12 mapas mentais autorais em JPG.
+- Atualizacao da galeria de mapas mentais com os nomes reais dos arquivos.
+- Atualizacao dos mapas principais exibidos em modulos relacionados.
+- Inclusao dos arquivos JPG no cache do service worker.
+- Manutencao do aviso de transparencia sobre uso de inteligencia artificial.
+
 ## [0.3.0] - 2026
 
 - Implementacao da Sprint Unica MVP Forte.
