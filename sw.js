@@ -1,5 +1,13 @@
-const CACHE = 'neuro-sem-neura-v0.2.0';
+const CACHE = 'neuro-sem-neura-v0.3.0';
 const ASSETS = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png',
+  './assets/mapas/organizacao-sistema-nervoso.svg',
+  './assets/mapas/medula-espinhal.svg',
+  './assets/mapas/tronco-encefalico.svg',
+  './assets/mapas/cerebelo.svg',
+  './assets/mapas/diencefalo.svg',
+  './assets/mapas/telencefalo.svg',
+  './assets/mapas/sistema-limbico.svg',
+  './assets/mapas/nervos-cranianos.svg',
   'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,300&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap'
 ];
 
