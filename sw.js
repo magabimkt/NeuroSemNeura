@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "neuro-sem-neura-v1-3";
+﻿const CACHE_NAME = "neuro-sem-neura-v1-3-2";
 
 const CORE_ASSETS = [
   "./",
@@ -70,4 +70,5 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
 
