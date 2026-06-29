@@ -1,4 +1,4 @@
-const CACHE_NAME = "neuro-sem-neura-v1-2";
+﻿const CACHE_NAME = "neuro-sem-neura-v1-3";
 
 const CORE_ASSETS = [
   "./",
@@ -7,6 +7,7 @@ const CORE_ASSETS = [
   "./jogos.html",
   "./manifest.json",
   "./offline.html",
+  "./assets/js/conteudo-academico.js",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
   "./assets/icons/maskable-512.png",
@@ -69,3 +70,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
