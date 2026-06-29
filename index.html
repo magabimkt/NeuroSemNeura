@@ -19,6 +19,7 @@
 <meta property="og:url" content="https://magabimkt.github.io/NeuroSemNeura/">
 <style>
 :root{--bg:#f5f7fb;--ink:#162033;--text:#223049;--muted:#65728a;--soft:#eef2f8;--card:#ffffff;--line:#d9e1ee;--blue:#4667ff;--cyan:#00a99d;--green:#15a46b;--amber:#c77900;--pink:#b64f8a;--red:#c84545;--dark:#101724;--shadow:0 16px 42px rgba(21,32,56,.13);--r:10px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55;padding-bottom:78px}button,input{font:inherit}button{cursor:pointer}a{color:inherit}.skip{position:absolute;left:-999px;top:1rem;background:var(--dark);color:#fff;padding:.75rem 1rem;border-radius:var(--r);z-index:999}.skip:focus{left:1rem}.app-top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.top-inner{max-width:1160px;margin:auto;padding:.85rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}.brand{display:grid;gap:.05rem}.brand strong{color:var(--ink);font-size:1.05rem}.brand span{color:var(--muted);font-size:.78rem}.top-actions{display:flex;gap:.5rem;align-items:center}.top-actions .pill{display:inline-flex;align-items:center;gap:.35rem;min-height:38px;padding:.45rem .7rem;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-size:.82rem;font-weight:800;color:var(--ink)}.wrap{max-width:1160px;margin:auto;padding:1rem}.view{display:none}.view.active{display:block}.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:1rem;align-items:stretch}.hero-main,.panel,.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}.hero-main{padding:clamp(1.25rem,4vw,2rem);display:grid;align-content:center}.kicker{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:var(--cyan);margin-bottom:.45rem}.hero h1{font-size:clamp(2.35rem,9vw,4.8rem);line-height:.97;margin:.2rem 0 .8rem;color:var(--ink)}.hero p,.lead{color:var(--muted);font-size:1rem;max-width:760px}.hero-visual{position:relative;overflow:hidden;min-height:320px;border-radius:var(--r);border:1px solid var(--line);background:linear-gradient(135deg,#101724,#1d2b46)}.hero-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.82}.hero-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(16,23,36,.85))}.visual-caption{position:absolute;left:1rem;right:1rem;bottom:1rem;color:#fff;z-index:1}.visual-caption strong{display:block;font-size:1.25rem}.actions{display:flex;gap:.65rem;flex-wrap:wrap;margin-top:1.1rem}.btn{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:46px;padding:.75rem 1rem;border-radius:var(--r);border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-weight:900}.btn.primary{border-color:transparent;background:var(--blue);color:#fff}.btn.success{border-color:transparent;background:var(--cyan);color:#fff}.btn:hover{transform:translateY(-1px);filter:brightness(1.02)}.quick-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;margin-top:1rem}.quick{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1rem;text-align:left;box-shadow:var(--shadow);min-height:118px}.quick:hover{border-color:var(--c,var(--blue));transform:translateY(-2px)}.quick span{display:inline-flex;width:32px;height:32px;border-radius:8px;background:color-mix(in srgb,var(--c,var(--blue)) 15%,white);color:var(--c,var(--blue));align-items:center;justify-content:center;font-weight:900;margin-bottom:.6rem}.quick strong{display:block;color:var(--ink);font-size:.98rem}.quick small{display:block;color:var(--muted);margin-top:.25rem}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem;margin-top:1rem}.stat{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:.9rem}.stat strong{display:block;color:var(--ink);font-size:1.5rem}.stat span{font-size:.78rem;color:var(--muted);font-weight:800}.section-head{margin:0 0 1rem}.section-head h2{color:var(--ink);font-size:clamp(1.65rem,5vw,2.8rem);line-height:1.07;margin:.2rem 0 .5rem}.module-shell{display:grid;grid-template-columns:260px 1fr;gap:1rem}.module-menu{display:grid;gap:.5rem;align-content:start}.module-btn{border:1px solid var(--line);background:var(--card);border-radius:var(--r);padding:.85rem;text-align:left;color:var(--muted);font-weight:900}.module-btn.active,.module-btn:hover{border-color:var(--c);color:var(--ink);background:color-mix(in srgb,var(--c) 8%,white)}.module-card{padding:1rem}.module-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,360px);gap:1rem;align-items:start}.module-copy h3{font-size:1.8rem;line-height:1.1;color:var(--ink);margin:.25rem 0 .55rem}.tag{display:inline-flex;border:1px solid var(--c);color:var(--c);border-radius:999px;padding:.2rem .55rem;font-size:.75rem;font-weight:900}.module-img{width:100%;border:1px solid var(--line);border-radius:var(--r);background:#fff;max-height:280px;object-fit:contain}.learning-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;margin-top:1rem}.step{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:.8rem}.step strong{display:block;color:var(--ink);margin-bottom:.25rem}.step p{margin:0;color:var(--muted);font-size:.88rem}.key-list{display:grid;gap:.45rem;margin:.9rem 0}.key-item{display:flex;gap:.55rem;align-items:flex-start;color:var(--text)}.key-item::before{content:"";width:.55rem;height:.55rem;border-radius:50%;background:var(--c);margin-top:.48rem;flex:0 0 auto}.module-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem;margin-top:1rem}.searchbar{display:flex;gap:.6rem;margin:1rem 0}.searchbar input{width:100%;min-height:46px;border:1px solid var(--line);border-radius:var(--r);padding:.75rem 1rem;background:var(--card);color:var(--ink)}.map-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.map-card{padding:0;overflow:hidden;text-align:left}.map-card img{display:block;width:100%;height:168px;object-fit:cover;background:#fff}.map-body{padding:.95rem}.map-body h3{margin:0 0 .25rem;color:var(--ink)}.map-body p{margin:0;color:var(--muted);font-size:.86rem}.review-grid,.refs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.review-card,.ref{padding:1.1rem}.review-card h3,.ref h3{color:var(--ink);margin:.1rem 0 .4rem}.review-card p,.ref p,.about p,.notice{color:var(--muted)}.about{padding:1.2rem}.footer{margin-top:2rem;padding:1.2rem 0;color:var(--muted);font-size:.86rem}.footer strong{color:var(--ink)}.notice{font-size:.82rem}.bottom-nav{position:fixed;left:0;right:0;bottom:0;z-index:80;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-top:1px solid var(--line);display:none;grid-template-columns:repeat(5,1fr);padding:.35rem max(.35rem,env(safe-area-inset-left)) calc(.35rem + env(safe-area-inset-bottom))}.bottom-nav button{border:0;background:transparent;border-radius:var(--r);min-height:58px;color:var(--muted);display:grid;place-items:center;font-size:.72rem;font-weight:900}.bottom-nav b{display:block;font-size:1.05rem;line-height:1}.bottom-nav button.active{color:var(--blue);background:#eef2ff}.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;background:rgba(16,23,36,.82);padding:1rem}.modal.open{display:flex}.modal-box{width:min(1120px,100%);max-height:94vh;overflow:auto;background:var(--card);border-radius:var(--r)}.modal-head{position:sticky;top:0;background:var(--card);display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem;border-bottom:1px solid var(--line)}.modal-head h3{margin:0;color:var(--ink)}.close{width:42px;height:42px;border-radius:var(--r);border:1px solid var(--line);background:var(--soft);color:var(--ink);font-size:1.2rem}.modal-img{display:block;width:100%;height:auto;background:#fff}.modal-text{padding:1rem;color:var(--muted)}@media(max-width:980px){.hero,.module-shell,.module-hero{grid-template-columns:1fr}.quick-grid,.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.module-menu{grid-template-columns:repeat(2,minmax(0,1fr))}.module-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.map-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:720px){body{padding-bottom:86px}.top-actions{display:none}.bottom-nav{display:grid}.wrap{padding:.85rem}.hero-visual{min-height:230px}.quick-grid,.stats,.module-menu,.learning-path,.module-actions,.map-grid,.review-grid,.refs{grid-template-columns:1fr}.module-btn{min-height:54px}.map-card img{height:145px}.hero-main,.panel,.card{box-shadow:0 10px 24px rgba(21,32,56,.1)}}@media(min-width:721px){body{padding-bottom:0}}
+.content-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem;margin:1rem 0}.content-tab{border:1px solid var(--line);background:var(--soft);color:var(--ink);border-radius:var(--r);padding:.8rem .7rem;text-align:left;font-weight:900}.content-tab span{display:block;font-size:.76rem;color:var(--muted);font-weight:700;margin-top:.15rem}.content-tab.active{border-color:var(--c);background:color-mix(in srgb,var(--c) 10%,white);color:var(--ink)}.content-panel{border:1px solid var(--line);background:#fff;border-radius:var(--r);padding:1rem;margin-top:.8rem}.content-section{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:.75rem 0;background:#fff}.content-section summary{cursor:pointer;padding:.85rem 1rem;font-weight:900;color:var(--ink);background:var(--soft)}.content-section[open] summary{border-bottom:1px solid var(--line)}.content-body{padding:1rem;color:var(--text)}.content-body p{margin:.75rem 0}.content-body ol,.content-body ul{padding-left:1.2rem}.content-body li{margin:.35rem 0}.map-study{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:1rem;align-items:start}.map-study img{width:100%;border:1px solid var(--line);border-radius:var(--r);background:#fff}.map-study .content-panel{margin-top:0}.revise-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.revise-actions .btn{min-height:64px}.mini-note{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:.9rem;color:var(--muted);margin-top:.8rem}.module-actions{grid-template-columns:repeat(5,minmax(0,1fr))}@media(max-width:820px){.content-tabs,.map-study,.revise-actions,.module-actions{grid-template-columns:1fr}.content-tab{min-height:58px}.content-panel{padding:.85rem}}
 </style>
 </head>
 <body>
@@ -44,7 +45,7 @@
           <button class="btn" type="button" data-view="mapas">Explorar mapas</button>
         </div>
         <div class="stats">
-          <div class="stat"><strong>8</strong><span>módulos guiados</span></div>
+          <div class="stat"><strong>15</strong><span>temas com conteúdo</span></div>
           <div class="stat"><strong>15</strong><span>mapas mentais</span></div>
           <div class="stat"><strong>150</strong><span>questões</span></div>
           <div class="stat"><strong>3</strong><span>jogos de revisão</span></div>
@@ -63,7 +64,7 @@
     </div>
   </section>
   <section class="view" id="modulos">
-    <div class="section-head"><div class="kicker">Trilha de estudo</div><h2>Escolha um módulo.</h2><p class="lead">O conteúdo aparece em blocos curtos para evitar cansaço, principalmente no celular.</p></div>
+    <div class="section-head"><div class="kicker">Trilha de estudo</div><h2>Escolha um tema.</h2><p class="lead">Cada tema tem conteúdo acadêmico em três caminhos: Entenda, Visualize e Revise.</p></div>
     <div class="module-shell">
       <div class="module-menu" id="moduleMenu"></div>
       <article class="panel module-card" id="moduleCard" aria-live="polite"></article>
@@ -110,32 +111,113 @@
 <div class="modal" id="mapModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
   <div class="modal-box"><div class="modal-head"><h3 id="modalTitle">Mapa mental</h3><button class="close" type="button" data-close-modal aria-label="Fechar">×</button></div><img class="modal-img" id="modalImg" alt=""><div class="modal-text" id="modalText"></div></div>
 </div>
+<script src="assets/js/conteudo-academico.js"></script>
 <script>
-const modules=[
-{title:"Organização do Sistema Nervoso",level:"Essencial",color:"#00a99d",map:"assets/mapas/01_neurulacao.png",summary:"Antes de decorar estruturas, entenda quem recebe informação, quem processa, quem envia resposta e como SNC e SNP se conectam.",key:["SNC integra encéfalo e medula espinhal.","SNP conecta receptores, músculos, vísceras e glândulas ao centro.","Neurulação ajuda a entender tubo neural, crista neural, SNC e SNP."],clinic:"Diferenciar SNC de SNP ajuda a localizar lesões e interpretar sintomas."},
-{title:"Medula Espinhal",level:"Essencial",color:"#7a57c9",map:"assets/mapas/06_tratos_medula.png",summary:"A medula conduz vias ascendentes e descendentes, organiza reflexos e ajuda a localizar alterações por nível segmentar.",key:["Colunas dorsais: tato fino, vibração e propriocepção.","Espinotalâmico: dor e temperatura.","Corticoespinal: movimento voluntário fino."],clinic:"O padrão de perda sensitiva, motora e reflexa ajuda a estimar nível e extensão da lesão."},
-{title:"Tronco Encefálico",level:"Intermediário",color:"#c77900",map:"assets/mapas/11_tronco_encefalico.png",summary:"Mesencéfalo, ponte e bulbo reúnem vias longas, núcleos de nervos cranianos e centros vitais.",key:["Mesencéfalo se relaciona a movimentos oculares e colículos.","Ponte conecta circuitos e dialoga com o cerebelo.","Bulbo reúne centros cardiorrespiratórios e decussação das pirâmides."],clinic:"Lesões de tronco podem gerar sinais cruzados."},
-{title:"Cerebelo",level:"Intermediário",color:"#15a46b",map:"assets/mapas/13_cerebelo.png",summary:"O cerebelo compara intenção e execução, ajustando precisão, equilíbrio, coordenação e aprendizagem motora.",key:["Ataxia é descoordenação, não paralisia pura.","Dismetria é erro na medida do movimento.","Tremor de intenção aumenta ao se aproximar do alvo."],clinic:"Marcha instável, disdiadococinesia e dismetria apontam para circuito cerebelar."},
-{title:"Diencéfalo",level:"Intermediário",color:"#4667ff",map:"assets/mapas/14_diencefalo.png",summary:"Integra tálamo, hipotálamo, epitálamo e subtálamo, conectando sensibilidade, homeostase, movimento e controle endócrino.",key:["Tálamo retransmite e integra informações para o córtex.","Hipotálamo regula fome, sede, temperatura, sono, SNA e hipófise.","Subtálamo participa dos circuitos dos núcleos da base."],clinic:"Dor central, alterações endócrinas e hemibalismo podem envolver estruturas diencefálicas."},
-{title:"Telencéfalo",level:"Avançado",color:"#b64f8a",map:"assets/mapas/04_lobos_cerebro.png",summary:"Inclui córtex, lobos, substância branca e núcleos profundos. Funções complexas dependem de redes.",key:["Frontal: planejamento, controle inibitório, linguagem expressiva e movimento.","Parietal: integração sensorial e espacial.","Temporal e occipital: memória, audição, linguagem e visão."],clinic:"Afasias, negligência, alterações executivas e déficits visuais ajudam a localizar redes corticais."},
-{title:"Sistema Límbico",level:"Avançado",color:"#c77900",map:"assets/mapas/15_sistema_limbico.png",summary:"Rede funcional de emoção, memória, motivação, saliência e respostas corporais.",key:["Hipocampo participa de memória declarativa e contexto.","Amígdala participa de saliência emocional e ameaça.","Hipotálamo transforma estados emocionais em respostas autonômicas e endócrinas."],clinic:"Memória traumática, ansiedade, motivação e respostas autonômicas exigem raciocínio em rede."},
-{title:"Nervos Cranianos",level:"Intermediário",color:"#c84545",map:"assets/mapas/08_nervos_cranianos_p1.png",summary:"Doze pares que conectam tronco, sentidos especiais, músculos, glândulas e vísceras.",key:["I e II são sensitivos especiais.","III, IV e VI organizam movimentos oculares.","VII, IX, X e XII aparecem muito em avaliação clínica."],clinic:"Diplopia, disfagia, assimetria facial e alterações de sensibilidade orientam a investigação."}
-];
-const maps=[
-["Neurulação","assets/mapas/01_neurulacao.png","Formação do sistema nervoso a partir do ectoderma."],["Potencial de ação","assets/mapas/02_potencial_acao.png","Despolarização, condução saltatória e sinapse."],["Células gliais","assets/mapas/03_celulas_gliais.png","Astrócitos, oligodendrócitos, Schwann e micróglia."],["Lobos do cérebro","assets/mapas/04_lobos_cerebro.png","Funções dos lobos cerebral."],["Núcleos da base","assets/mapas/05_nucleos_base.png","Vias direta, indireta e hiperdireta."],["Tratos da medula","assets/mapas/06_tratos_medula.png","Vias ascendentes e descendentes."],["Sistema nervoso autônomo","assets/mapas/07_sna.png","Simpático e parassimpático."],["Nervos cranianos I a VI","assets/mapas/08_nervos_cranianos_p1.png","Primeira parte dos pares cranianos."],["Nervos cranianos VII a XII","assets/mapas/09_nervos_cranianos_p2.png","Segunda parte dos pares cranianos."],["Circuitos da dopamina","assets/mapas/10_circuitos_dopamina.png","Vias dopaminérgicas."],["Tronco encefálico","assets/mapas/11_tronco_encefalico.png","Mesencéfalo, ponte e bulbo."],["Esquizofrenia e dopamina","assets/mapas/12_esquizofrenia.png","Modelo dopaminérgico."],["Cerebelo","assets/mapas/13_cerebelo.png","Coordenação e ataxia."],["Diencéfalo","assets/mapas/14_diencefalo.png","Tálamo e hipotálamo."],["Sistema límbico","assets/mapas/15_sistema_limbico.png","Memória e emoção."]
-];
-let activeModule=0;
-function showView(id){document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id===id));document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===id));history.replaceState(null,"","#"+id);window.scrollTo({top:0,behavior:"smooth"})}
-document.addEventListener("click",e=>{const view=e.target.closest("[data-view]");if(view){e.preventDefault();showView(view.dataset.view)}const mod=e.target.closest("[data-module]");if(mod){renderModule(Number(mod.dataset.module))}const dir=e.target.closest("[data-module-dir]");if(dir){renderModule((activeModule+Number(dir.dataset.moduleDir)+modules.length)%modules.length)}const map=e.target.closest("[data-map]");if(map){openMap(Number(map.dataset.map))}if(e.target.closest("[data-close-modal]"))closeMap()});
-function renderMenu(){document.querySelector("#moduleMenu").innerHTML=modules.map((m,i)=>`<button class="module-btn ${i===activeModule?"active":""}" style="--c:${m.color}" type="button" data-module="${i}">${String(i+1).padStart(2,"0")} · ${m.title}</button>`).join("")}
-function renderModule(i=0){activeModule=i;renderMenu();const m=modules[i];document.querySelector("#moduleCard").style.setProperty("--c",m.color);document.querySelector("#moduleCard").innerHTML=`<div class="module-hero"><div class="module-copy"><span class="tag">${m.level} · módulo ${i+1} de ${modules.length}</span><h3>${m.title}</h3><p>${m.summary}</p><div class="learning-path"><div class="step"><strong>1. Entenda</strong><p>Leia a explicação central.</p></div><div class="step"><strong>2. Visualize</strong><p>Abra o mapa e conecte as ideias.</p></div><div class="step"><strong>3. Revise</strong><p>Treine com quiz ou jogos.</p></div></div><div class="key-list">${m.key.map(k=>`<div class="key-item">${k}</div>`).join("")}</div><p><strong>Aplicação clínica:</strong> ${m.clinic}</p><div class="module-actions"><button class="btn" type="button" data-module-dir="-1">Anterior</button><button class="btn" type="button" data-map="${maps.findIndex(x=>x[1]===m.map)}">Ampliar mapa</button><a class="btn primary" href="quiz.html">Quiz</a><button class="btn success" type="button" data-module-dir="1">Próximo</button></div></div><img class="module-img" src="${m.map}" alt="Mapa mental: ${m.title}"></div>`}
-function renderMaps(list=maps){document.querySelector("#mapGrid").innerHTML=list.map((m)=>{const idx=maps.indexOf(m);return `<button class="card map-card" type="button" data-map="${idx}"><img src="${m[1]}" alt="Mapa mental: ${m[0]}" loading="lazy"><div class="map-body"><h3>${m[0]}</h3><p>${m[2]}</p></div></button>`}).join("")}
-function openMap(i){const m=maps[i];if(!m)return;document.querySelector("#modalTitle").textContent=m[0];document.querySelector("#modalImg").src=m[1];document.querySelector("#modalImg").alt="Mapa mental ampliado: "+m[0];document.querySelector("#modalText").textContent=m[2]+" Use esta imagem para revisar relações, não apenas para decorar nomes.";document.querySelector("#mapModal").classList.add("open")}
-function closeMap(){document.querySelector("#mapModal").classList.remove("open")}
-document.querySelector("#mapSearch").addEventListener("input",e=>{const q=e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");renderMaps(maps.filter(m=>(m[0]+" "+m[2]).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").includes(q)))});
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMap()});
-document.querySelector("#mapModal").addEventListener("click",e=>{if(e.target.id==="mapModal")closeMap()});
-renderModule(0);renderMaps();const initial=location.hash.replace("#","");if(initial&&document.getElementById(initial))showView(initial);
+const modules = window.NSN_CONTENT || [];
+const maps = modules.map((m, index) => [m.title, m.map, m.interpretacao || m.objetivo || '', index]);
+let activeModule = 0;
+let activeStudyTab = 'entenda';
+
+function escapeHtml(value){
+  return String(value || '').replace(/[&<>]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[char]));
+}
+function mdToHtml(value){
+  const text = String(value || '').trim();
+  if(!text) return '<p>Conteúdo em revisão.</p>';
+  const lines = text.split(/\r?\n/);
+  let html = '';
+  let list = null;
+  function closeList(){ if(list){ html += `</${list}>`; list = null; } }
+  for(const raw of lines){
+    const line = raw.trim();
+    if(!line){ closeList(); continue; }
+    if(/^\d+\.\s+/.test(line)){
+      if(list !== 'ol'){ closeList(); html += '<ol>'; list = 'ol'; }
+      html += `<li>${escapeHtml(line.replace(/^\d+\.\s+/,''))}</li>`;
+      continue;
+    }
+    if(/^[-•]\s+/.test(line)){
+      if(list !== 'ul'){ closeList(); html += '<ul>'; list = 'ul'; }
+      html += `<li>${escapeHtml(line.replace(/^[-•]\s+/,''))}</li>`;
+      continue;
+    }
+    closeList();
+    html += `<p>${escapeHtml(line).replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')}</p>`;
+  }
+  closeList();
+  return html;
+}
+function section(title, body, open=false){
+  return `<details class="content-section" ${open?'open':''}><summary>${title}</summary><div class="content-body">${mdToHtml(body)}</div></details>`;
+}
+function showView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));
+  document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===id));
+  history.replaceState(null,'','#'+id);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function renderMenu(){
+  document.querySelector('#moduleMenu').innerHTML = modules.map((m,i)=>`<button class="module-btn ${i===activeModule?'active':''}" style="--c:${m.color}" type="button" data-module="${i}">${String(i+1).padStart(2,'0')} · ${m.title}</button>`).join('');
+}
+function renderModule(i=activeModule, tab=activeStudyTab){
+  activeModule = i;
+  activeStudyTab = tab;
+  renderMenu();
+  const m = modules[i];
+  const card = document.querySelector('#moduleCard');
+  card.style.setProperty('--c',m.color);
+  const tabIntro = {
+    entenda:'Conceito, explicação didática, etapas, raciocínio acadêmico e conexão clínica.',
+    visualize:'Mapa ampliado, leitura guiada da imagem e exemplo aplicado.',
+    revise:'Caminhos para consolidar: quiz, jogos, erros comuns e glossário.'
+  };
+  card.innerHTML = `<div class="module-hero"><div class="module-copy"><span class="tag">${m.level} · tema ${i+1} de ${modules.length}</span><h3>${m.title}</h3><p>${escapeHtml(m.objetivo || m.explicacao || '')}</p></div><img class="module-img" src="${m.map}" alt="Mapa mental: ${m.title}"></div>
+  <div class="content-tabs" aria-label="Caminhos do estudo">
+    <button class="content-tab ${tab==='entenda'?'active':''}" type="button" data-study-tab="entenda">Entenda<span>conceito e explicação</span></button>
+    <button class="content-tab ${tab==='visualize'?'active':''}" type="button" data-study-tab="visualize">Visualize<span>mapa + interpretação</span></button>
+    <button class="content-tab ${tab==='revise'?'active':''}" type="button" data-study-tab="revise">Revise<span>quiz, jogos e erros</span></button>
+  </div>
+  <div id="studyContent">${renderStudyContent(m,tab)}</div>
+  <div class="module-actions"><button class="btn" type="button" data-module-dir="-1">Anterior</button><button class="btn" type="button" data-study-tab="entenda">Entenda</button><button class="btn" type="button" data-study-tab="visualize">Visualize</button><a class="btn primary" href="quiz.html">Quiz</a><button class="btn success" type="button" data-module-dir="1">Próximo</button></div>`;
+}
+function renderStudyContent(m, tab){
+  if(tab === 'visualize'){
+    return `<div class="map-study"><div><img src="${m.map}" alt="Mapa mental: ${m.title}"><button class="btn" type="button" data-map="${activeModule}" style="margin-top:.7rem;width:100%">Ampliar mapa</button></div><div class="content-panel"><h4>Interpretando o mapa</h4>${mdToHtml(m.interpretacao)}<h4>Exemplo aplicado</h4>${mdToHtml(m.exemplo)}</div></div>`;
+  }
+  if(tab === 'revise'){
+    return `<div class="content-panel"><h4>Revisão ativa</h4><div class="revise-actions"><a class="btn primary" href="quiz.html">Abrir quiz completo</a><a class="btn success" href="jogos.html">Abrir jogos</a></div><div class="mini-note">Use o quiz para testar precisão conceitual e os jogos para reforçar reconhecimento, associação e memória ativa.</div>${section('Erros comuns',m.erros,true)}${section('Termos para glossário clicável',m.glossario,false)}</div>`;
+  }
+  return `<div class="content-panel">${section('Objetivo de aprendizagem',m.objetivo,true)}${section('Explicação didática',m.explicacao,true)}${section('Explicação por etapas',m.etapas,false)}${section('Raciocínio acadêmico',m.raciocinio,false)}${section('Conexão clínica',m.clinica,false)}</div>`;
+}
+function renderMaps(list=maps){
+  document.querySelector('#mapGrid').innerHTML = list.map((m)=>{const idx=m[3];return `<button class="card map-card" type="button" data-map="${idx}"><img src="${m[1]}" alt="Mapa mental: ${m[0]}" loading="lazy"><div class="map-body"><h3>${m[0]}</h3><p>${escapeHtml((m[2]||'').slice(0,130))}${(m[2]||'').length>130?'...':''}</p></div></button>`}).join('');
+}
+function openMap(i){
+  const m = modules[i]; if(!m) return;
+  document.querySelector('#modalTitle').textContent = m.title;
+  document.querySelector('#modalImg').src = m.map;
+  document.querySelector('#modalImg').alt = 'Mapa mental ampliado: ' + m.title;
+  document.querySelector('#modalText').innerHTML = `<strong>Interpretando o mapa</strong>${mdToHtml(m.interpretacao || m.exemplo || '')}`;
+  document.querySelector('#mapModal').classList.add('open');
+}
+function closeMap(){document.querySelector('#mapModal').classList.remove('open')}
+document.addEventListener('click',e=>{
+  const view=e.target.closest('[data-view]'); if(view){e.preventDefault(); showView(view.dataset.view)}
+  const mod=e.target.closest('[data-module]'); if(mod){renderModule(Number(mod.dataset.module),'entenda')}
+  const dir=e.target.closest('[data-module-dir]'); if(dir){renderModule((activeModule+Number(dir.dataset.moduleDir)+modules.length)%modules.length,activeStudyTab)}
+  const tab=e.target.closest('[data-study-tab]'); if(tab){renderModule(activeModule,tab.dataset.studyTab)}
+  const map=e.target.closest('[data-map]'); if(map){openMap(Number(map.dataset.map))}
+  if(e.target.closest('[data-close-modal]')) closeMap();
+});
+document.querySelector('#mapSearch').addEventListener('input',e=>{
+  const q=e.target.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  renderMaps(maps.filter(m=>(m[0]+' '+m[2]).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(q)));
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape') closeMap()});
+document.querySelector('#mapModal').addEventListener('click',e=>{if(e.target.id==='mapModal') closeMap()});
+renderModule(0,'entenda');
+renderMaps();
+const initial=location.hash.replace('#',''); if(initial&&document.getElementById(initial)) showView(initial);
 </script>
 <script>
 if ('serviceWorker' in navigator) {
@@ -146,4 +228,5 @@ if ('serviceWorker' in navigator) {
 </script>
 </body>
 </html>
+
 
